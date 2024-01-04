@@ -10,7 +10,7 @@ on:
 jobs:
 
   test:
-    runs-on: ${{ matrix.os_version }} #ele chama a matriz de testes com o array de sistemas operaionais
+    runs-on: ${{ matrix.os_version }} #ele chama a matriz de testes com o array de sistemas operaionais, no momento temos 2 versoes.
     strategy:
       matrix:
         go_version: ['1.18', '1.17', '>=1.18']
